@@ -171,7 +171,7 @@
               </div>
               
               <div class="form-group">
-                <input type="file" class="form-control" placeholder="Upload Resume" name="pdf_file" accept=".pdf" value="<?php echo $editData['pdf_file']??''; ?>">
+                <input type="file" class="form-control" placeholder="Upload Resume" name="pdf_file" accept=".pdf" value="<?php echo $editData['pdf_file.pdf']??''; ?>">
               </div>
               
             <button type="submit"  name="<?php echo empty($editData)?'save':'update'; ?>" class="btn btn-success">Save</button>

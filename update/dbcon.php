@@ -1,11 +1,11 @@
 <?php
 $servername='localhost';
-$username="mango9yb_mangosuser";
-$password="Mangos@#123";
+$username="root";
+$password="";
  
 try
 {
-    $con=new PDO("mysql:host=$servername;dbname=mango9yb_mangosdb",$username,$password);
+    $con=new PDO("mysql:host=$servername;dbname=mangosdb",$username,$password);
     $con->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
     //echo 'connected';
 }
